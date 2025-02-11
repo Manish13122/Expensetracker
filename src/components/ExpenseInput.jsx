@@ -19,7 +19,7 @@ const ExpenseInput = ({ addExpense, totalExpenses, budget }) => {
   };
 
   return (
-    <div className="card p-3 bg-danger-subtle">
+    <div className="card p-3 bg-secondary-subtle">
       <div className="row">
         <div className="col-12 col-md-4">
           <div className="form-floating mb-3">

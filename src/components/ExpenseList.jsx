@@ -23,7 +23,6 @@ const ExpenseList = ({ expenses, editExpense }) => {
       <h2 className="text-center" style={{ margin: "10px 0", color: "black", fontSize: "1.5rem" }}>
         Added Items
       </h2>
-
       {expenses.length === 0 ? (
         <p className="text-center text-muted">No items found</p>
       ) : (

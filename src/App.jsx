@@ -47,13 +47,13 @@ const App = () => {
 
       <ExpenseInput addExpense={addExpense} totalExpenses={totalExpenses} budget={budget} />
 
-      <div className="card p-2 my-2">
+      <div className="card p-2 my-2 bg-secondary-subtle bg-gradient">
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-6">
             <div className="form-floating my-3">
               <input
                 type="text"
-                className="form-control bg-primary-subtle"
+                className="form-control bg-light-subtle"
                 id="search"
                 placeholder="Search..."
                 value={searchTerm}
@@ -65,7 +65,7 @@ const App = () => {
           <div className="col-sm-12 col-md-6 col-lg-6 my-auto">
             <div className="form-floating">
               <select
-                className="form-select bg-warning-subtle"
+                className="form-select bg-light-subtle"
                 id="filter"
                 onChange={(e) => setFilter(e.target.value)}
               >

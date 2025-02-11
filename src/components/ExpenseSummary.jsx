@@ -4,7 +4,7 @@ const ExpenseSummary = ({ totalExpenses, budget }) => {
   const remainingAmount = budget - totalExpenses;
 
   return (
-    <div className="card my-2 shadow bg-dark bg-gradient">
+    <div className="card my-2 shadow bg-light bg-gradient">
       <h3 className="text-success text-center">Summary</h3>
       <div className="card-body">
         <p>
